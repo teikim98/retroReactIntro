@@ -7,14 +7,14 @@ function Header() {
     <Navbar.Brand href="#home" className='ps-5'><img src={Logo} alt="Bootstrap" height="100" width ="200" /></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" className='me-5' />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="d-flex ms-auto me-5">
+      <Nav className="d-flex ms-auto me-3">
         <Nav.Link href="#aboutMe">aboutMe</Nav.Link>
         <Nav.Link href="#wantTobe">wantTobe</Nav.Link>
         <Nav.Link href="#contactMe">contactMe</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-  
+  //깃허브 업로드 체크 123
   );
 }
 
