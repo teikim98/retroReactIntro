@@ -8,12 +8,13 @@ import background from "./img/mainBack.jpg"
         <Container fluid className='text-center px-0'>
             <section className='vh-100' style={{ 
                         backgroundImage: `url(${background})`
-                      }}>
+                      }}
+                    id ="Home">
                 <h1>first</h1>
             </section>
 
 
-            <section className='bg-secondary vh-100 d-flex justify-content-around align-items-center'>
+            <section className='bg-secondary vh-100 d-flex justify-content-around align-items-center' id='aboutMe'>
                 <div id="tv" className='shadow box-shadow-inset d-flex flex-column justify-content-center'>
                     <h2>Skill</h2>
                     <p>스킬 1</p>
@@ -27,8 +28,12 @@ import background from "./img/mainBack.jpg"
 
 
 
-            <section className='vh-100'>
+            <section className='vh-100' id ="wantTobe">
                 <h1>third</h1>
+            </section>
+
+            <section className='vh-100 bg-secondary' id ="contactMe">
+                <h1>contactMe</h1>
             </section>
         </Container>
          </>
