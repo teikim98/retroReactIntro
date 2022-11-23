@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import "./Section.css";
+import "../css/Section.min.css";
 import background from "./img/mainBack.jpg"
 
  function Section(){
