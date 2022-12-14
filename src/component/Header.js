@@ -4,6 +4,7 @@ import Scrollspy from 'react-scrollspy'
 
 function Header() {
   return (
+
     <nav className="navbar navbar-expand-lg bg-transparent bg-gradient fixed-top pt-3" data-bs-target="#navbar-example">
     <div className="container-fluid">
       <a className="navbar-brand ps-3" href="#"><img src={Logo} alt="Bootstrap" height="80" width ="160" /></a>
@@ -20,7 +21,7 @@ function Header() {
                     <a href="#wantTobe" className='fs-2'>wantTobe</a>
                 </li>
                 <li className="nav-item px-3">
-                    <a href="#contactMe" className='fs-2'>contactMe</a>
+                    <a href="#contactMe" className='fs-2'>contactMe</a> 
                 </li>
                 </Scrollspy>
             </div>
@@ -31,3 +32,6 @@ function Header() {
 }
 
 export default Header;
+
+
+

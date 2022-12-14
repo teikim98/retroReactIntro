@@ -10,6 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
+import '../css/SwiperChat.min.css';
 import Ddat from "./img/Ddat.png"
 import Racoon from "./img/Raccon.webp"
 
